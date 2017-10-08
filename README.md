@@ -1,3 +1,3 @@
-# npm module
+# get-async-iterator
 
-Npm module boilerplait.
+getAsyncIterator()

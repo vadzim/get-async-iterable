@@ -1,14 +1,14 @@
 {
-  "name": "name",
+  "name": "get-async-iterable",
   "version": "0.0.1",
-  "description": "description",
+  "description": "get-async-iterable",
   "keywords": [],
-  "repository": "https://github.com/vadzim/repository",
+  "repository": "https://github.com/vadzim/get-async-iterable",
   "bugs": {
-    "url": "https://github.com/vadzim/repository/issues"
+    "url": "https://github.com/vadzim/get-async-iterable/issues"
   },
   "contributors": [],
-  "main": "distr/module.js",
+  "main": "distr/get-async-iterable.js",
   "author": "Vadzim Zieńka <developer@vadzim.info>",
   "scripts": {
     "build": "babel source --out-dir distr && cd distr && (for f in $(find | grep -E '.js$'); do cp ../source/$f $f.flow; done) && cd ..",
